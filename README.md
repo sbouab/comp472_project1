@@ -2,7 +2,7 @@
 Repository URL: https://github.com/sbouab/comp472
 <br>
 <!--MODIFY WHEN TESTED ON LAB COMPUTERS-->
-How to run the program on the desktops on the computer labs:
+How to run the program on the desktops in the computer labs:
 <br>
 1) Download <i>Project1.py</i> file which contains the source code of the project.
 2) Make sure <b>sys</b>, <b>copy</b> and <b>ordered-set</b> libraries are installed on the machine.<br>
