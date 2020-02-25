@@ -1,7 +1,7 @@
 Repository URL: https://github.com/sbouab/comp472_project1
 <br>
 <br>
-<b>NOTE:</b> <i>Project1.py</i> contains the project code for the first deliverable (demo 1) while <i>Project3.py</i> contains the complete project code which is the second deliverable (demo 2).
+<b>NOTE:</b> <i>Project1.py</i> contains the project code for the first deliverable (demo 1) while <i>Project3.py</i> contains the complete project code which is the second deliverable (demo 2) (includes two extra outputs).
 <br>
 <br>
 How to run the (complete) project code on the (Windows) desktops in the computer labs:
@@ -13,7 +13,7 @@ How to run the (complete) project code on the (Windows) desktops in the computer
 2) Modify the <b>PATH</b> variable in the <b>user</b> environment variables by prepending <i>C:\python\directory\path\;C:\python\directory\path\Scripts\;</i> to it.
 3) Open command prompt and run <b>pip install ordered-set</b> command to install the necessary library to run the program.
 4) Download https://github.com/sbouab/comp472_project1 repository as a <i>.zip</i> file.
-5) Extract <i>comp472_project1-master.zip</i>
+5) Extract the <i>.zip</i>
 6) Put <i>test_file.txt</i> in the directory where <i>Project3.py</i> is located.
 7) Using command prompt, change directories to where <i>Project3.py</i> and <i>test_file.txt</i> are located.
 8) Run the following command to run the script: <b>python Project3.py <i>test_file.txt</i></b>
