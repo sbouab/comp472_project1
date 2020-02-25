@@ -574,6 +574,7 @@ def custom_brute_force(n, initial_board, puzzle_index):
 
     # if board is all white, we've found a solution
     if board == winning_board:
+		# terminate function as we found a solution
         return print("Win!")
     
     else:
@@ -647,6 +648,7 @@ def custom_brute_force(n, initial_board, puzzle_index):
                 output_solution_file.write("\n")
                 output_solution_file.write("Win!")
                 output_search_file.write("Win!")
+				# terminate function as we found a solution
                 return print("Win!")
             # if we haven't found the solution, try another first row clicking combination
             else:
@@ -658,7 +660,7 @@ def custom_brute_force(n, initial_board, puzzle_index):
     os.remove(str(puzzle_index) + "_clearTheBoard_solution.txt")
     output_solution_file = open(str(puzzle_index) + "_clearTheBoard_solution.txt", "w")
     output_solution_file.write("no solution")
-    print("Done.")
+    print("No solution.")
 
 # read input_file path
 input_file = open(sys.argv[1], 'r')
@@ -689,8 +691,8 @@ for puzzle in input_file:
     astar_running = 1
     astar(n, max_l, initial_board, puzzle_index, initial_black_tokens_number)
     astar_running = 0
-    #custom_astar_running = 1
-    #custom_astar(n, max_l, initial_board, puzzle_index, initial_black_tokens_number)
-    #custom_astar_running = 0
+    custom_astar_running = 1
+    custom_astar(n, max_l, initial_board, puzzle_index, initial_black_tokens_number)
+    custom_astar_running = 0
     custom_brute_force(n, binary_to_string(initial_board), puzzle_index)
     puzzle_index += 1
