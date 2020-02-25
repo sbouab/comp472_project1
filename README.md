@@ -17,4 +17,4 @@ How to run the (complete) project code on the (Windows) desktops in the computer
 6) Put <i>test_file.txt</i> in the directory where <i>Project3.py</i> is located.
 7) Using command prompt, change directories to where <i>Project3.py</i> and <i>test_file.txt</i> are located.
 8) Run the following command to run the script: <b>python Project3.py <i>test_file.txt</i></b>
-<br><b>NOTE:</b>Output files will be generated in the same directory.
+<br><b>NOTE:</b> Output files will be generated in the same directory.
