@@ -6,7 +6,7 @@ Repository URL: https://github.com/sbouab/comp472_project1
 <br>
 How to run the (complete) project code on the (Windows) desktops in the computer labs:
 <br>
-1) Download the latest (Windows) Python3.7 release from https://www.python.org/downloads/ and install<b>*</b> it in any <b>user-owned</b><b>**</b> directory.
+1) Download the latest (Windows) Python3.7 release from https://www.python.org/downloads/ and install<b>*</b> it in any <b>user-owned**</b> directory.
 <br>*Choose custom installation, make sure <b>pip</b> is checked, <b>add to PATH</b> is unchecked and <b>for all users</b> is unchecked.
 <br>**As an example, I chose to install it in <i>C:\Users\my_username\Downloads\python3.7_temp</i>
 <br><b>NOTE:</b> The step above is performed because I've downloaded custom Python packages and I can't install them in the Python instance that is pre-installed in the lab as I don't have enough privileges.
