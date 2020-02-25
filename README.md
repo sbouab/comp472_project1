@@ -8,7 +8,7 @@ How to run the (complete) project code on the (Windows) desktops in the computer
 <br>
 1) Download the latest (Windows) Python3.7 release from https://www.python.org/downloads/ and install* it in any <b>user-owned</b>** directory.
 <br>*Choose custom installation, make sure <b>pip</b> is checked, <b>add to PATH</b> is unchecked and <b>for all users</b> is unchecked.
-<br>**As an example, I chose to install it in <i>C:\Users\my_username\Downloads\python3.7_temp</i>
+<br>**As an example, I chose to install it in <i>C:\Users\my_username\Downloads\python3.7_temp\</i>
 <br><b>NOTE:</b> The step above is performed because I've downloaded custom Python packages and I can't install them in the Python instance that is pre-installed in the lab as I don't have enough privileges.
 2) Modify the <b>PATH</b> variable in the <b>user</b> environment variables by prepending <i>C:\python\directory\path\;C:\python\directory\path\Scripts\;</i> to it.
 3) Open the command prompt and run <b>pip install ordered-set</b> command to install the necessary library to run the program.
