@@ -4,7 +4,7 @@ Repository URL: https://github.com/sbouab/comp472_project1
 <b>NOTE:</b> <i>Project1.py</i> contains the project code for the first deliverable (demo 1) while <i>Project3.py</i> contains the complete project code which is the second deliverable (demo 2).
 <br>
 <br>
-How to run the (complete) project code on the (Windows) desktops in the computer labs:
+<b>How to run</b> the (complete) project code on the (Windows) desktops in the computer labs:
 <br>
 1) Download the latest (Windows) Python3.7 release from https://www.python.org/downloads/ and install* it in any <b>user-owned</b>** directory.
 <br>*Choose custom installation, make sure <b>pip</b> is checked, <b>add to PATH</b> is unchecked and <b>for all users</b> is unchecked.
@@ -18,3 +18,6 @@ How to run the (complete) project code on the (Windows) desktops in the computer
 7) Using command prompt, change directories to where <i>Project3.py</i> and <i>test_file.txt</i> are located.
 8) Run the following command to run the script: <b>python Project3.py <i>test_file.txt</i></b>
 <br><b>NOTE:</b> Output files will be generated in the same directory.
+<br>
+<br>
+<b>For more information</b> regarding the project, please refer to <i>COMP_472_2020_Winter_Project_1.pdf</i>
