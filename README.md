@@ -19,5 +19,4 @@ Repository URL: https://github.com/sbouab/comp472_project1
 8) Run the following command to run the script: <b>python Project3.py <i>test_file.txt</i></b>
 <br><b>NOTE:</b> Output files will be generated in the same directory.
 <br>
-<br>
 <b>For more information</b> regarding the project, please refer to <i>COMP_472_2020_Winter_Project_1.pdf</i>
